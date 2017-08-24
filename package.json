@@ -1,5 +1,5 @@
 {
-  "name": "igniteApp",
+  "name": "amiibolist",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -35,6 +35,7 @@
     "react-native-drawer": "^2.3.0",
     "react-navigation": "^1.0.0-beta.7",
     "react-redux": "^5.0.2",
+    "react-super-select": "^1.0.5",
     "redux": "^3.6.0",
     "redux-persist": "^4.1.0",
     "redux-saga": "^0.14.3",

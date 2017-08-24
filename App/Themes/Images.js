@@ -19,7 +19,11 @@ const images = {
   chevronRight: require('../Images/Icons/chevron-right.png'),
   hamburger: require('../Images/Icons/hamburger.png'),
   backButton: require('../Images/Icons/back-button.png'),
-  closeButton: require('../Images/Icons/close-button.png')
+  closeButton: require('../Images/Icons/close-button.png'),
+  amiiboChrom: require('../Images/AmiiboImages/amiibo-crom.png'),
+  amiiboCloudPlayer2: require('../Images/AmiiboImages/amiibo-cloud-player-2.png'),
+  amiiboZeldaBotw: require('../Images/AmiiboImages/amiibo-zelda-botw.png'),
+  amiiboLinkOot: require('../Images/AmiiboImages/amiibo-link-oot.png'),
 }
 
 export default images

@@ -1,15 +1,18 @@
 import { StackNavigator } from 'react-navigation'
-import LaunchScreen from '../Containers/LaunchScreen'
+import ListScreen from '../Containers/ListScreen'
+import AmiiboScreen from '../Containers/AmiiboScreen'
 
 import styles from './Styles/NavigationStyles'
 
 // Manifest of possible screens
 const PrimaryNav = StackNavigator({
-  LaunchScreen: { screen: LaunchScreen }
+  ListScreen: { screen: ListScreen },  
+  Amiibo: { screen: AmiiboScreen }
+  
 }, {
   // Default config for all screens
   headerMode: 'none',
-  initialRouteName: 'LaunchScreen',
+  initialRouteName: 'ListScreen',
   navigationOptions: {
     headerStyle: styles.header
   }
