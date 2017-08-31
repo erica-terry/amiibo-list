@@ -10,9 +10,10 @@ import GridListItem from '../Components/GridListItem';
 import items from '../Config/ListData'
 import { StackNavigator } from 'react-navigation';
 import AmiiboScreen from './AmiiboScreen';
+import Header from './Header';
 
 // Styles
-import styles from './Styles/LaunchScreenStyles'
+import styles from './Styles/ListScreenStyles'
 
 export default class ListScreen extends Component {
   constructor(props) {
@@ -30,6 +31,7 @@ export default class ListScreen extends Component {
 
     return (
       <View style={styles.mainContainer}>
+        <Header/>
         <ScrollView style={styles.container}>
           <View style={{flex: 1, flexWrap: 'wrap', flexDirection: 'row'}}>
             {items.amiibos.map(amiibo=> 

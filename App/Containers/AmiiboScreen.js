@@ -7,6 +7,8 @@ import {
   BackHandler } from 'react-native'
 import { Images } from '../Themes'
 import GridListItem from '../Components/GridListItem';
+import Header from './Header';
+import moment from 'moment';
 import {
   StackNavigator,
   NavigationActions
@@ -39,13 +41,14 @@ export default class AmiiboScreen extends Component {
     const backAction = NavigationActions.back()
 
     return (
-      <View >
+      <View>
+        <Header/>
         <ScrollView style={styles.container}>
           <View>
               <Image source={config.imageSrc} />
               <Text>{config.name}</Text>
               <Text>Series: {config.series}</Text>
-              <Text>Release Date: {config.dateReleased}</Text>
+              <Text>Release Date: {config.dateReleased==="TBD" ? config.dateReleased : moment(config.dateReleased).format('MMMM D, YYYY')}</Text>
           </View>
         </ScrollView>
       </View>

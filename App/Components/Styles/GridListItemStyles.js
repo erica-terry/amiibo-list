@@ -5,15 +5,16 @@ export default StyleSheet.create({
   container: {
     alignItems: 'center',
     borderWidth: 1,
-    borderRadius: .5,
+    borderRadius: 5,
     borderColor: Colors.steel,
-    width:'33.3%'
+    width:'33.3%',
   },
   figureImage: {
     height: 110,
     width: 110,
     marginHorizontal: Metrics.section,
     marginVertical: Metrics.baseMargin,
+    opacity: .5
   },
   text: {
     color: Colors.coal,

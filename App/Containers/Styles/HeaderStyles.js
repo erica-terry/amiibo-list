@@ -6,19 +6,12 @@ export default StyleSheet.create({
     flex: 1
   },
   container: {
-    flex: 1,
     justifyContent: 'center',
     backgroundColor: Colors.snow
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    fontFamily: Fonts.type.base,
-    margin: Metrics.baseMargin
-  },
-  myImage: {
+  logo: {
     width: 200,
-    height: 200,
+    height:50,
     alignSelf: 'center'
   }
 })

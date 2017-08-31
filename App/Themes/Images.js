@@ -1,12 +1,5 @@
 // leave off @2x/@3x
 const images = {
-  logo: require('../Images/ir.png'),
-  clearLogo: require('../Images/top_logo.png'),
-  launch: require('../Images/launch-icon.png'),
-  ready: require('../Images/your-app.png'),
-  ignite: require('../Images/ignite_logo.png'),
-  igniteClear: require('../Images/ignite-logo-transparent.png'),
-  tileBg: require('../Images/tile_bg.png'),
   background: require('../Images/BG.png'),
   buttonBackground: require('../Images/button-bg.png'),
   api: require('../Images/Icons/icon-api-testing.png'),
@@ -24,6 +17,7 @@ const images = {
   amiiboCloudPlayer2: require('../Images/AmiiboImages/amiibo-cloud-player-2.png'),
   amiiboZeldaBotw: require('../Images/AmiiboImages/amiibo-zelda-botw.png'),
   amiiboLinkOot: require('../Images/AmiiboImages/amiibo-link-oot.png'),
+  amiiboLogo: require('../Images/amiibo-logo.png'),
 }
 
 export default images
